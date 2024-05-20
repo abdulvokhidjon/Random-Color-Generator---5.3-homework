@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/img/1000_F_198050141_s8Ly8x7oMPT6u2eTEisKsjWpzAArwxdf.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.key-info {
+  text-align: center;
+}
+
+.key-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.key-code,
+.key-name,
+.key-which {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.gradient-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.generate-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.generate-btn:hover {
+  background-color: #0062cc;
+}
+
+.gradient-preview {
+  width: 900px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+.color-code {
+  font-size: 1.1rem;
+  color: #333;
+}
