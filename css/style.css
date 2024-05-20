@@ -65,8 +65,8 @@ body {
 }
 
 .gradient-preview {
-  width: 900px;
-  height: 450px;
+  width: 600px;
+  height: 300px;
   border-radius: 10px;
   background-color: #ccc;
 }
